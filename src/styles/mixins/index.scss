@@ -1,0 +1,13 @@
+/*
+	Percorre map de cores e monta as classes de estilos
+
+	return replace('&', '.text', &--white: { color: #ffffff;})
+*/
+
+@mixin modifiers($map, $attribute) {
+	@each $key, $value in $map {
+		&--#{$key} {
+			#{$attribute}: $value;
+		}
+	}
+}

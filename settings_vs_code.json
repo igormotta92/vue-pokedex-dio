@@ -1,0 +1,171 @@
+{
+	/** NLW 5 - Diego RocketSeat */
+
+	"terminal.integrated.fontSize": 14,
+
+	"editor.tabSize": 2,
+	"editor.fontSize": 12,
+	"editor.lineHeight": 20,
+	"editor.semanticHighlighting.enabled": false,
+
+	"editor.rulers": [80, 120],
+
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+
+	"files.associations": {
+			".sequelizerc": "javascript",
+			".stylelintrc": "json",
+			".prettierrc": "json",
+			"*.tsx": "typescriptreact"
+	},
+
+	"typescript.tsserver.log": "verbose",
+"material-icon-theme.activeIconPack": "nest",
+
+"material-icon-theme.folders.associations": {
+			"infra": "app",
+			"entities": "class",
+			"domain": "class",
+			"schemas": "class",
+			"typeorm": "database",
+			"repositories": "mappings",
+			"http": "container",
+			"migrations": "tools",
+			"modules": "components",
+			"implementations": "core",
+			"dtos": "typescript",
+			"fakes": "mock",
+			"websockets": "pipe",
+			"protos": "pipe",
+			"grpc": "pipe",
+			"providers": "include",
+			"subscribers": "messages",
+			"useCases": "controller",
+			"kafka": "scripts",
+			"mappers": "meta",
+			"_shared": "shared",
+			"eslint-config": "tools",
+			"kube": "kubernetes"
+	},
+
+	"material-icon-theme.files.associations": {
+			"ormconfig.json": "database",
+			"tsconfig.json": "tune",
+			"*.proto": "3d",
+			"*.webpack.js": "webpack"
+	},
+
+	"window.menuBarVisibility": "toggle",
+	"cSpell.enableFiletypes": [
+			"!asciidoc",
+			"!c",
+			"!cpp",
+			"!csharp",
+			"!go",
+			"!handlebars",
+			"!haskell",
+			"!jade",
+			"!java",
+			"!latex",
+			"!php",
+			"!pug",
+			"!python",
+			"!restructuredtext",
+			"!rust",
+			"!scala",
+			"!scss"
+	],
+	"cSpell.language": "en,pt",
+	"editor.suggestSelection": "first",
+	"cSpell.userWords": [
+			"chakra",
+			"commitados",
+			"commite",
+			"middlewares",
+			"prefetch",
+			"reseta",
+			"rocketseat"
+	],
+	"workbench.productIconTheme": "fluent-icons",
+	"terminal.integrated.showExitAlert": false,
+
+	"splitHTMLAttributes.closingBracketOnNewLine": true,
+	//"window.zoomLevel": 1,
+
+	// Configurações da fonte JetBrains Mono
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+
+	// Demais configurações
+	"workbench.colorTheme": "Dracula Soft",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "newUntitledFile",
+
+	"explorer.compactFolders": false,
+	"editor.renderLineHighlight": "gutter",
+	"workbench.editor.labelFormat": "short",
+	"extensions.ignoreRecommendations": true,
+
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "never",
+
+	"breadcrumbs.enabled": true,
+	"editor.parameterHints.enabled": false,
+	"editor.formatOnSave": true,
+	"[json]": {
+			"editor.formatOnSave": false //acho q não funciona
+	},
+
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": true,
+
+	"emmet.syntaxProfiles": { "javascript": "jsx" },
+	"emmet.includeLanguages": { "javascript": "javascriptreact", "vue-html": "html" },
+	"emmet.triggerExpansionOnTab": true, //Erick Wendel
+
+	"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"html",
+			"vue"
+],
+
+	"javascript.suggest.autoImports": true,
+	"typescript.suggest.autoImports": true,
+
+	/** Elixir */
+
+	"elixir.credo.ignoreWarningMessages": true,
+	"elixir.credo.strictMode": true,
+	"elixirLS.dialyzerEnabled": false,
+	"elixirLS.suggestSpecs": false,
+	"eslint.trace.server": null,
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+	"sync.gist": "9b8b2c8bd7bf2d601cec5a42dd76a697",
+	"editor.renderWhitespace": "all",
+
+		/** Vue */
+
+	"vetur.format.defaultFormatter.html": "js-beautify-html",
+"vetur.format.options.tabSize": 2,
+"vetur.format.options.useTabs": true,
+"vetur.format.defaultFormatterOptions": {
+	"prettier": {
+		"semi": true,
+		"singleQuote": true,
+		"trailingComma": "all",
+		"tabWidth": 2,
+		"useTabs": true,
+		"vue-indent-script-and-style": true
+	},
+	"js-beautify-html": {
+		"wrap_attributes": "auto",
+		"space-after-anon-function": true,
+		"space-after-named-function": true
+	}
+},
+"vetur.format.scriptInitialIndent": true,
+"vetur.format.styleInitialIndent": true,
+}

@@ -1,0 +1,25 @@
+.text {
+	@include modifiers($colors, 'color');
+}
+/*
+	return replace('&', '.text', &--white: { color: #ffffff;})
+	resultado:
+		text--white: { color: #ffffff;}
+		text--black: { color: #000000;}
+		text--gray: { color: #4f4f4f;}
+		text--blue-00: { color: #2e6eb6;}
+		text--blue-01: { color: #003979;}
+*/
+
+.bg {
+	@include modifiers($colors, 'background');
+}
+/*
+return replace('&', '.bg', &--white: { color: #ffffff;})
+resultado:
+		bg--white: { color: #ffffff;}
+		bg--black: { color: #000000;}
+		bg--gray: { color: #4f4f4f;}
+		bg--blue-00: { color: #2e6eb6;}
+		bg--blue-01: { color: #003979;}
+*/

@@ -1,0 +1,8 @@
+yarn add axiox
+
+package.json >
+de: "sass-loader": "^8.0.2" -> "sass-loader": "^10.0.3",
+
+yarn é igual a npm install
+
+git não aceita pastas vazias, deixar uma pasta vazia com o arquivo .gitkeep para que a mesma seja versionada
